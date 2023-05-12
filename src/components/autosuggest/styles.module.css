@@ -1,3 +1,21 @@
-.container {
+.dev {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+/* .container { 
+    
+ } 
+.input {  } */
+.suggestionsContainer { 
+    display: flex;
+    justify-content: center;
+ }
+.suggestion {  
     border: 1px solid black;
 }
+/* .suggestionHighlighted {  } */
+
+.suggestion   {
+    list-style: none;
+  }

@@ -54,14 +54,18 @@ const Example = () => {
   };
 
   return (
-    <Autosuggest
+    <div className={styles['dev']}>
+      <Autosuggest
       suggestions={suggestions}
       onSuggestionsFetchRequested={onSuggestionsFetchRequested}
       onSuggestionsClearRequested={onSuggestionsClearRequested}
       getSuggestionValue={getSuggestionValue}
       renderSuggestion={renderSuggestion}
       inputProps={inputProps}
+      theme={styles}
     />
+    </div>
+    
   );
 };
 
