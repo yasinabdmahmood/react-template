@@ -1,9 +1,10 @@
 import './App.module.css';
-import Example from './components/autosuggest/Example';
+import Main from './HOC/Main';
+//import Example from './components/autosuggest/Example';
 
 function App() {
   return (
-    <Example />
+    <Main/>
   );
 }
 
