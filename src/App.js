@@ -1,10 +1,10 @@
 import './App.module.css';
-import Main from './HOC/Main';
+import Popup from './react_popup/Popup'
 //import Example from './components/autosuggest/Example';
 
 function App() {
   return (
-    <Main/>
+    <Popup />
   );
 }
 
